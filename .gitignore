@@ -1,0 +1,36 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+
+# Datasets, pretrained weights, checkpoints, and generated outputs
+DATA/*
+!DATA/README.md
+Blenderbot_small-90M/*
+!Blenderbot_small-90M/README.md
+glove6B/*
+!glove6B/README.md
+DPR-reader/*
+!DPR-reader/README.md
+metric/pycocoevalcap/meteor/data/*
+!metric/pycocoevalcap/meteor/data/README.md
+*.bin
+*.ckpt
+*.pkl
+*.pt
+*.pth
+
+# Logs and experiment outputs
+*.log
+runs/
+wandb/
